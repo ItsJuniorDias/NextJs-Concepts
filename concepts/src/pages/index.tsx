@@ -1,7 +1,9 @@
+import { Title } from '../styles/pages/Home';
+
 export default function Home() {
   return (
     <div> 
-      <h1>Hello Junior</h1>
+      <Title>Hello Junior</Title>
     </div>
   )
 }
