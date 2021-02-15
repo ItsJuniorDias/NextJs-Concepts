@@ -17,7 +17,7 @@ export default function Top10({ products }: Top10Props) {
       <ul> 
           {products.map(recommendedProduct =>  (
             <>
-            <li>
+            <li key={recommendedProduct.id}>
                {recommendedProduct.title}
             </li>
             </>

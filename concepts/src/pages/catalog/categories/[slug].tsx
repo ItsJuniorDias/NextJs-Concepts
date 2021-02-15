@@ -24,7 +24,7 @@ export default function Category({ products }: CategoryProps) {
      <ul> 
           {products.map(product =>  (
             <>
-            <li>
+            <li key={product.id}>
                {product.title}
             </li>
             </>
